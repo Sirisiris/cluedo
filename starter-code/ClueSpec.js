@@ -15,6 +15,7 @@ describe('Find a random element of the array - randomSelector', () => {
     expect(randomSelector([])).toBe(undefined);
   });
 
+
   it('Return the element of a single value array', () => {
     expect(randomSelector(['ab'])).toBe('ab');
   });

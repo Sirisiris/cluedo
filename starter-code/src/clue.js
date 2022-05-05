@@ -85,9 +85,10 @@ name: Patio
 */
 
 // Characters Collection
+
 const charactersArray = [
 
-    {
+   {
         first_name: "Jacob",
         last_name: "Green",
         color: "green",
@@ -96,7 +97,7 @@ const charactersArray = [
         image: "https://pbs.twimg.com/profile_images/506787499331428352/65jTv2uC.jpeg",
         occupation: "Entrepreneur",
     }
-
+,
     {
         first_name: "Doctor",
         last_name: "Orchid",
@@ -106,7 +107,7 @@ const charactersArray = [
         image: "http://www.radiotimes.com/uploads/images/Original/111967.jpg",
         ocupation: "Scientist",
     }
-
+,
     {
         first_name: "Victor",
         last_name: "Plum",
@@ -116,7 +117,7 @@ const charactersArray = [
         image: "https://metrouk2.files.wordpress.com/2016/07/professor-plum.jpg",
         occupation: "Designer",
     }
-
+,
     {
         first_name: "Kasandra",
         last_name: "Scarlet",
@@ -126,7 +127,7 @@ const charactersArray = [
         image: "https://metrouk2.files.wordpress.com/2016/07/miss-scarlett.jpg",
         occupation: "Actor",
     }
-
+,
     {
         first_name: "Eleanor",
         last_name: "Peacock",
@@ -136,7 +137,7 @@ const charactersArray = [
         image: "https://metrouk2.files.wordpress.com/2016/07/mrs-peacock.jpg",
         occupation: "Socialité",
     }
-    
+,
     {
         first_name: "Jack",
         last_name: "Mustard",
@@ -149,9 +150,53 @@ const charactersArray = [
 ]
 
 // Rooms' Collection
-const roomsArray = [];
+const roomsArray = [
+    {name:"dinningRoom"},
+    {name: "conservatory"},
+    {name: "Kitchen"}, 
+    {name: "Study"},
+    {name: "Library"},
+    {name: "billiard Room"},
+    {name: "lounge"  },
+    {name: "Ball Room" },
+    {name: "hall" },
+    {name: "spa", },
+    {name: "Living Room"},
+    {name: "Observatory" },
+    {name: "theather" },
+    {name: "guest Room"},
+    {name: "patio"},
+]
 
 // Weapons Collection
-const weaponsArray = [];
+const weaponsArray = [
+        {name: "rope", 
+        weight: 10 },  
+        {name: "knife", 
+        weight: 8}, 
+        {name: "candlestick",
+        weight: 2},
+        {name: "dumbbell", 
+        weight: 30 }, 
+        {name: "poison",  
+        weight: 2}, 
+        {name: "axe", 
+        weight: 15},  
+        {name: "bat",  
+        weight: 13 },
+        {name: "trophy", 
+        weight: 25},
+        {name: "pistol", 
+        weight:  20}
+]
 
 
+function randomSelector(array) {
+    let carta = array[Math.floor(Math.random()*array.length)];
+    return carta;
+}
+
+function pickMistery(randomSelector) {
+    let mistery 
+    return mistery;
+}
